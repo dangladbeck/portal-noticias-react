@@ -19,7 +19,8 @@ min-width: 8rem;
 .destaque{
     text-align: center;
     background-color:  coral;
-color: darkblue;
+    color: darkblue;
+    padding: 0.5em;
 }
 
 .rodape {
@@ -48,5 +49,6 @@ h2{
     color: white;
     padding: 10px;
     text-decoration: none;
+    margin-right: 2em;
 }
 
