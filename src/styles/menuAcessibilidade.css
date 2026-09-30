@@ -25,19 +25,19 @@
     top: 50px;
     right: 20px;
     background-color: white;
-border: 1px solid gray;
-width: 150px;
-box-sizing: border-box;
+    border: 1px solid gray;
+    width: 150px;
+    box-sizing: border-box;
 }
 
 
 #menuAcessibilidade button {
-display: block;    
-width: 90%;
-margin: 10px auto;
+    display: block;    
+    width: 90%;
+    margin: 10px auto;
 }
 
-.contraste, .contraste button {
+.contraste, .contraste h1, .contraste h2, .contraste button {
     background-color: black;
     color: white;
 }
