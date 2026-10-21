@@ -19,7 +19,7 @@ function TelaListaAdm() {
                         <tr>
                             <th>Nome</th>
                             <th>e-Mail</th>
-                            <th>Ações</th>
+                            <th colSpan={2}>Ações</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -27,6 +27,9 @@ function TelaListaAdm() {
                             <tr key={adm.email}>
                                 <td>{adm.nome}</td>
                                 <td>{adm.email}</td>
+                                <td><button onClick={()=>{
+                                    navigate("/telaCadastroAdm", {state: {adm}});
+                                }}>Alterar</button></td>
                                 <td>
                                     <button onClick={()=>{
                                         const confirmar = window.confirm("Excluir administrador " + adm.nome + "?");
